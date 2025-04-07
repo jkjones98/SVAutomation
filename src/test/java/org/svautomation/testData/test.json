@@ -1,0 +1,630 @@
+[
+  {
+    "Section": [
+      {
+        "SectionName": "Address",
+        "QuestionAnswers": []
+      },
+      {
+        "SectionName": "Circumstance",
+        "QuestionAnswers": [
+          {
+            "question": "Date of Inspection",
+            "questionType": "date-time",
+            "answer": "today",
+            "findQuestion": false
+          },
+          {
+            "question": "Time of Arrival",
+            "questionType": "date-time",
+            "answer": "now",
+            "findQuestion": false
+          },
+          {
+            "question": "Time of Departure",
+            "questionType": "date-time",
+            "answer": "in the future",
+            "findQuestion": false
+          },
+          {
+            "question": "Person Present/Access:",
+            "questionType": "presetListQuestion",
+            "answer": "Agent",
+            "findQuestion": false
+          },
+          {
+            "question": "Mortgage Purpose:",
+            "questionType": "presetListQuestion",
+            "answer": "Remortgage",
+            "findQuestion": false
+          },
+          {
+            "question": "EV/PP on the instruction correct?",
+            "questionType": "yesNo",
+            "answer": "Yes",
+            "findQuestion": false
+          },
+          {
+            "question": "Is this a new build or newly converted property being purchased for residential owner occupation? (Excluding self build)",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Occupancy Status:",
+            "questionType": "presetListQuestion",
+            "answer": "Owner-Occupied",
+            "findQuestion": false
+          },
+          {
+            "question": "Answer owner occupier questions?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Weather:",
+            "questionType": "presetListQuestion",
+            "answer": "Dry",
+            "findQuestion": false
+          },
+          {
+            "question": "Furnishings:",
+            "questionType": "presetListQuestion",
+            "answer": "Furnished",
+            "findQuestion": false
+          },
+          {
+            "question": "Floor Coverings:",
+            "questionType": "presetListQuestion",
+            "answer": "All",
+            "findQuestion": false
+          },
+          {
+            "question": "Property Location:",
+            "questionType": "presetListQuestion",
+            "answer": "England",
+            "findQuestion": false
+          },
+          {
+            "question": "Are there any significant limitations to inspection over and above normal occupation?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Property Type and Style",
+        "QuestionAnswers": [
+          {
+            "question": "Property Type",
+            "questionType": "presetListQuestion",
+            "answer": "House",
+            "findQuestion": false
+          },
+          {
+            "question": "Property Style",
+            "questionType": "presetListQuestion",
+            "answer": "Semi-Detached",
+            "findQuestion": false
+          },
+          {
+            "question": "Build Format",
+            "questionType": "presetListQuestion",
+            "answer": "Purpose Built",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the property a listed building",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the property of public sector origins",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Location",
+        "QuestionAnswers": [
+          {
+            "question": "Area Predominantly",
+            "questionType": "presetListQuestion",
+            "answer": "Residential",
+            "findQuestion": false
+          },
+          {
+            "question": "Location Type:",
+            "questionType": "presetListQuestion",
+            "answer": "City",
+            "findQuestion": false
+          },
+          {
+            "question": "In a Conservation Area?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Are there any Adverse Locational Factors?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Roads",
+            "questionType": "presetListQuestion",
+            "answer": "Made up road",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Tenure and Legal",
+        "QuestionAnswers": [
+          {
+            "question": "Record Tenure",
+            "questionType": "presetListQuestion",
+            "answer": "Freehold",
+            "findQuestion": false
+          },
+          {
+            "question": "Source of Tenure Information",
+            "questionType": "presetListQuestion",
+            "answer": "Owner",
+            "findQuestion": false
+          },
+          {
+            "question": "Evidence of commercial/agricultural use?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Any occupancy restrictions?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the property occupied as a single dwelling?",
+            "questionType": "yesNo",
+            "answer": "Yes",
+            "findQuestion": false
+          },
+          {
+            "question": "Low cost home scheme?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Any other legal matters needing further investigation?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Circumstances of title plan:",
+            "questionType": "presetListQuestion",
+            "answer": "The security is a combination of two or more former properties.",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Accommodation",
+        "QuestionAnswers": []
+      },
+      {
+        "SectionName": "Accommodation",
+        "QuestionAnswers": [
+          {
+            "question": "StepperOne",
+            "questionType": "stepper",
+            "answer": "2",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperTwo",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperThree",
+            "questionType": "stepper",
+            "answer": "2",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperFour",
+            "questionType": "stepper",
+            "answer": "3",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperFive",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperSeven",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperNine",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "CompleteStepper",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Plot",
+        "QuestionAnswers": [
+          {
+            "question": "Gardens:",
+            "questionType": "presetListQuestion",
+            "answer": "Rear",
+            "findQuestion": false
+          },
+          {
+            "question": "Does the plot exceed 1 acre?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": true
+          },
+          {
+            "question": "Applicant(s) own adjoining land?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Close relative own adjoining land?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Parking",
+        "QuestionAnswers": [
+          {
+            "question": "Is there space for a garage",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Parking arrangements",
+            "questionType": "presetListQuestion",
+            "answer": "Private Driveway",
+            "findQuestion": false
+          },
+          {
+            "question": "Please state the number of parking spaces:",
+            "questionType": "numericQuestion",
+            "answer": "2",
+            "findQuestion": true
+          }
+        ]
+      },
+      {
+        "SectionName": "Garage",
+        "QuestionAnswers": [
+          {
+            "question": "Garage",
+            "questionType": "garages",
+            "answer": "none",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Outbuilding",
+        "QuestionAnswers": [
+          {
+            "question": "StepperOne",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "StepperTwo",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Risk Matters",
+        "QuestionAnswers": [
+          {
+            "question": "Site topography is:",
+            "questionType": "presetListQuestion",
+            "answer": "Level",
+            "findQuestion": false
+          },
+          {
+            "question": "Trees within influencing distance?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the property located in an area of known subsidence risk?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Evidence of structural movement, landslip or heave in the property or in the immediate vicinity?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Risk of flooding?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is there any reason to believe the property may be at risk of coastal erosion?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Evidence of Japanese Knotweed?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Any adverse site/risk factors?",
+            "questionType": "presetListQuestion",
+            "answer": "None",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Property Age",
+        "QuestionAnswers": [
+          {
+            "question": "Original year of construction:",
+            "questionType": "numericQuestion",
+            "answer": "1998",
+            "findQuestion": false
+          },
+          {
+            "question": "Awaiting first occupation in current form?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Property age is less than 10 years?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Signs of significant alterations/extensions?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Construction Classification",
+        "QuestionAnswers": [
+          {
+            "question": "Construction type for main walls",
+            "questionType": "presetListQuestion",
+            "answer": "Solid Brick",
+            "findQuestion": false
+          },
+          {
+            "question": "Are there any significant areas of single skin brickwork, blockwork or insubstantial material?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the roof of traditional construction?",
+            "questionType": "yesNo",
+            "answer": "Yes",
+            "findQuestion": false
+          },
+          {
+            "question": "Are you aware that the underside of the roof covering has been treated with foam?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Are there solar panels at the property?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Lender Specific",
+        "QuestionAnswers": [
+          {
+            "question": "Is this a transcription of a report produced previously for another purpose?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Have you seen the title plan?",
+            "questionType": "presetListQuestion",
+            "answer": "Yes",
+            "findQuestion": false
+          },
+          {
+            "question": "Title Plan Reference",
+            "questionType": "textQuestion",
+            "answer": "Testing the title plan reference text view",
+            "findQuestion": false
+          },
+          {
+            "question": "Title Plan match the property inspected?",
+            "questionType": "presetListQuestion",
+            "answer": "Yes",
+            "findQuestion": true
+          },
+          {
+            "question": "Gross External Floor Area:",
+            "questionType": "numericQuestion",
+            "answer": "110",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the water supplied by a private third party company?",
+            "questionType": "presetListQuestion",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Subject to a Back to Back sale?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the property affected by dry rot?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Is the property likely to be affected any of the following infrastructur projects?",
+            "questionType": "presetListQuestion",
+            "answer": "None of the below",
+            "findQuestion": false
+          },
+          {
+            "question": "Any other significant matters to report?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "Valuation Difference:",
+            "questionType": "presetListQuestion",
+            "answer": "Same",
+            "findQuestion": false
+          },
+          {
+            "question": "Was a new EPC created during the valuation inspection?",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          },
+          {
+            "question": "What was the property's EPC rating:",
+            "questionType": "presetListQuestion",
+            "answer": "B",
+            "findQuestion": false
+          },
+          {
+            "question": "What was the property's potential EPC rating:",
+            "questionType": "presetListQuestion",
+            "answer": "A",
+            "findQuestion": false
+          },
+          {
+            "question": "What was the property's SAP rating:",
+            "questionType": "numericQuestion",
+            "answer": "88",
+            "findQuestion": false
+          },
+          {
+            "question": "What was the property's potential SAP rating:",
+            "questionType": "numericQuestion",
+            "answer": "98",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Photographs Required",
+        "QuestionAnswers": [
+          {
+            "question": "Front Elevation",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": true
+          },
+          {
+            "question": "Rear Elevation",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          },
+          {
+            "question": "Bathroom",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          },
+          {
+            "question": "Kitchen",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          },
+          {
+            "question": "Site Plan",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          },
+          {
+            "question": "Street Scene",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          },
+          {
+            "question": "Garden",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          },
+          {
+            "question": "Additional Photos",
+            "questionType": "photoQuestion",
+            "answer": "Not available",
+            "findQuestion": false
+          }
+        ]
+      }
+    ]
+  }
+]

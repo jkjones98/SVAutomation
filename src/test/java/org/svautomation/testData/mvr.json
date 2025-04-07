@@ -1,0 +1,105 @@
+[
+  {
+    "SectionName": "Circumstance",
+    "QuestionAnswers": [
+      {
+        "question": "Date of inspection:",
+        "questionType": "date-time"
+      },
+      {
+        "question": "Time of Arrival",
+        "questionType": "date-time"
+      },
+      {
+        "question": "Time of Departure",
+        "questionType": "date-time"
+      },
+      {
+        "question": "Person Present/Access",
+        "questionType": "presetListQuestion",
+        "answer": "Agent"
+      },
+      {
+        "question": "Mortgage Purpose",
+        "questionType": "presetListQuestion",
+        "answer": "Remortgage"
+      },
+      {
+        "question": "EV/PP on the instruction correct?",
+        "questionType": "yesNo",
+        "answer": "Yes"
+      },
+      {
+        "question": "Is this a new build or newly converted property being purchased for residential owner occupation? (Excluding self build)",
+        "questionType": "yesNo",
+        "answer": "No"
+      },
+      {
+        "question": "Occupancy status",
+        "questionType": "presetListQuestion",
+        "answer": "Owner-Occupied"
+      },
+      {
+        "question": "Answer owner occupier questions?",
+        "questionType": "yesNo",
+        "answer": "No"
+      },
+      {
+        "question": "Weather",
+        "questionType": "presetList",
+        "answer": "Dry"
+      },
+      {
+        "question": "Furnishings",
+        "questionType": "presetListQuestion",
+        "answer": "All"
+      },
+      {
+        "question": "Property Location",
+        "questionType": "presetListQuestion",
+        "answer": "England"
+      },
+      {
+        "question": "Are there any significant limitations to inspection over and above normal occupation",
+        "questionType": "presetListQuestion",
+        "answer": "No"
+      }
+    ]
+  },
+  {
+    "SectionName": "Property Type and Style",
+    "QuestionAnswers": [
+      {
+        "question": "Property Type",
+        "questionType": "presetListQuestion",
+        "answer": "House"
+      },
+      {
+        "question": "Property Style",
+        "questionType": "presetListQuestion",
+        "answer": "Semi-Detached"
+      },
+      {
+        "question": "Build Format",
+        "questionType": "presetListQuestion",
+        "answer": "Purpose Built"
+      },
+      {
+        "question": "Is the property a listed building",
+        "questionType": "yesNo",
+        "answer": "No"
+      },
+      {
+        "question": "Is the property of public sector origins",
+        "questionType": "yesNo",
+        "answer": "No"
+      }
+    ]
+  },
+  {
+    "SectionName": "Location",
+    "QuestionAnswers": [
+    ]
+  }
+]
+

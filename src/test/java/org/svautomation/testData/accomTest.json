@@ -1,0 +1,90 @@
+[
+  {
+    "Section": [
+      {
+        "SectionName": "Accommodation",
+        "QuestionAnswers": []
+      },
+      {
+        "SectionName": "Accommodation",
+        "QuestionAnswers": [
+          {
+            "question": "Floors",
+            "questionType": "stepper",
+            "answer": "2",
+            "findQuestion": false
+          },
+          {
+            "question": "Kitchens",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "Receptions",
+            "questionType": "stepper",
+            "answer": "2",
+            "findQuestion": false
+          },
+          {
+            "question": "Bedrooms",
+            "questionType": "stepper",
+            "answer": "3",
+            "findQuestion": false
+          },
+          {
+            "question": "Baths (With WC)",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "Shower Rooms (With WC)",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          },
+          {
+            "question": "Separate WCs",
+            "questionType": "stepper",
+            "answer": "1",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Plot",
+        "QuestionAnswers": [
+          {
+            "question": "Gardens:",
+            "questionType": "presetListQuestion",
+            "answer": "Rear",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Parking",
+        "QuestionAnswers": [
+          {
+            "question": "Is there space for a garage",
+            "questionType": "yesNo",
+            "answer": "No",
+            "findQuestion": false
+          }
+        ]
+      },
+      {
+        "SectionName": "Risk Matters",
+        "QuestionAnswers": [
+          {
+            "question": "Site Topography is:",
+            "questionType": "presetListQuestion",
+            "answer": "Level",
+            "findQuestion": false
+          }
+        ]
+      }
+    ]
+  }
+]
